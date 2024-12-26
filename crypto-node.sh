@@ -5,7 +5,7 @@ apt upgrade -y
 apt install tmux curl wget git htop mc ufw -y
 
 curl -fsSL https://tailscale.com/install.sh | sh
-sudo tailscale up --ssh
+# tailscale up --ssh
 
 ufw reset
 ufw default deny incoming
